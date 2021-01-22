@@ -75,11 +75,15 @@ namespace MonopolyINFO807
             return (_players.Count >= 2 && _players.Count <= 6);
         }
 
-        public string PrintPlayers(List<Player> _players)
+        /// <summary>
+        /// Returns a list of players in a string
+        /// </summary>
+        /// <returns></returns>
+        public string PlayersToString()
         {
             string _displayText = "";
             int _index = 0;
-            foreach (var _player in _players)
+            foreach (var _player in players)
             {
                 _index++;
                 _displayText = _displayText + "Joueur " + _index + "\n";

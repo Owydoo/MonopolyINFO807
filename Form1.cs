@@ -27,7 +27,7 @@ namespace MonopolyINFO807
             string _displayText = "Les joueurs ont été créés";
             alertBox.Text = _displayText;
             Console.WriteLine(_displayText);
-            Console.WriteLine(game.PrintPlayers(game.players));
+            Console.WriteLine(game.PlayersToString());
         }
 
         private void createGame_Click(object sender, EventArgs e)
