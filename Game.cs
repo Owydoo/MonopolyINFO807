@@ -55,6 +55,7 @@ namespace MonopolyINFO807
             if (CheckNbPlayers(players))
             {
                 //Creating the board, etc ...
+                Console.WriteLine("Creating the board, etc ...");
             }
             else
             {
@@ -73,5 +74,20 @@ namespace MonopolyINFO807
         {
             return (_players.Count >= 2 && _players.Count <= 6);
         }
+
+        public string PrintPlayers(List<Player> _players)
+        {
+            string _displayText = "";
+            int _index = 0;
+            foreach (var _player in _players)
+            {
+                _index++;
+                _displayText = _displayText + "Joueur " + _index + "\n";
+                _displayText = _displayText + _player.ToString() + "\n";
+            }
+
+            return _displayText;
+        }
+
     }
 }

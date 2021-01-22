@@ -1,0 +1,10 @@
+D:\hhers\Documents\Univ_2020-2021\S8\COO2\TP\MonopolyINFO807\MonopolyINFO807\MonopolyINFO807\bin\Debug\MonopolyINFO807.exe.config
+D:\hhers\Documents\Univ_2020-2021\S8\COO2\TP\MonopolyINFO807\MonopolyINFO807\MonopolyINFO807\bin\Debug\MonopolyINFO807.exe
+D:\hhers\Documents\Univ_2020-2021\S8\COO2\TP\MonopolyINFO807\MonopolyINFO807\MonopolyINFO807\bin\Debug\MonopolyINFO807.pdb
+D:\hhers\Documents\Univ_2020-2021\S8\COO2\TP\MonopolyINFO807\MonopolyINFO807\MonopolyINFO807\obj\Debug\MonopolyINFO807.csprojAssemblyReference.cache
+D:\hhers\Documents\Univ_2020-2021\S8\COO2\TP\MonopolyINFO807\MonopolyINFO807\MonopolyINFO807\obj\Debug\MonopolyINFO807.Properties.Resources.resources
+D:\hhers\Documents\Univ_2020-2021\S8\COO2\TP\MonopolyINFO807\MonopolyINFO807\MonopolyINFO807\obj\Debug\MonopolyINFO807.csproj.GenerateResource.cache
+D:\hhers\Documents\Univ_2020-2021\S8\COO2\TP\MonopolyINFO807\MonopolyINFO807\MonopolyINFO807\obj\Debug\MonopolyINFO807.csproj.CoreCompileInputs.cache
+D:\hhers\Documents\Univ_2020-2021\S8\COO2\TP\MonopolyINFO807\MonopolyINFO807\MonopolyINFO807\obj\Debug\MonopolyINFO807.exe
+D:\hhers\Documents\Univ_2020-2021\S8\COO2\TP\MonopolyINFO807\MonopolyINFO807\MonopolyINFO807\obj\Debug\MonopolyINFO807.pdb
+D:\hhers\Documents\Univ_2020-2021\S8\COO2\TP\MonopolyINFO807\MonopolyINFO807\MonopolyINFO807\obj\Debug\MonopolyINFO807.Form1.resources
