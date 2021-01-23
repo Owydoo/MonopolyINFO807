@@ -59,5 +59,17 @@ namespace MonopolyINFO807
             }
 
         }
+
+        public override string ToString()
+        {
+            string _board = "";
+
+            for (int i = 0; i < squares.Count; i++)
+            {
+                _board += $"case {i} : {squares[i].name}\n";
+            }
+
+            return _board;
+        }
     }
 }

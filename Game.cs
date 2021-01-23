@@ -62,6 +62,8 @@ namespace MonopolyINFO807
                 Console.WriteLine("Creating the board, etc ...");
 
                 board = new Board(players);
+                string _displayText = $"affichage du plateau : {board}";
+                Console.WriteLine(_displayText);
             }
             else
             {
