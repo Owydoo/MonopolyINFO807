@@ -9,10 +9,14 @@ namespace MonopolyINFO807
     class Game
     {
         public List<Player> players;
+        //public Player currentPlayer;
+
+        public Board board;
 
         public Game()
         {
             this.players = new List<Player>();
+
         }
 
         public Game(List<Player> players)
@@ -56,10 +60,13 @@ namespace MonopolyINFO807
             {
                 //Creating the board, etc ...
                 Console.WriteLine("Creating the board, etc ...");
+
+                board = new Board(players);
             }
             else
             {
-                Console.WriteLine($"Désolé, le nombre de joueurs doit être entre 2 et 6 et il est de {players.Count}." );
+                string _displayText = $"Désolé, le nombre de joueurs doit être entre 2 et 6 et il est de {players.Count}.";
+                Console.WriteLine(_displayText);
             }
             
 

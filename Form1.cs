@@ -39,5 +39,15 @@ namespace MonopolyINFO807
             Console.WriteLine(_displayText);
             
         }
+
+        private void beginGameButton_Click(object sender, EventArgs e)
+        {
+            game.BeginGame();
+        }
+
+        private void moveButton_Click(object sender, EventArgs e)
+        {
+            game.board.Move(1, game.board.players[0].name);
+        }
     }
 }

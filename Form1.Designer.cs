@@ -32,13 +32,16 @@ namespace MonopolyINFO807
             this.addPlayerButton = new System.Windows.Forms.Button();
             this.createGame = new System.Windows.Forms.Button();
             this.alertBox = new System.Windows.Forms.TextBox();
+            this.beginGameButton = new System.Windows.Forms.Button();
+            this.moveButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // addPlayerButton
             // 
-            this.addPlayerButton.Location = new System.Drawing.Point(561, 63);
+            this.addPlayerButton.Location = new System.Drawing.Point(748, 78);
+            this.addPlayerButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.addPlayerButton.Name = "addPlayerButton";
-            this.addPlayerButton.Size = new System.Drawing.Size(186, 23);
+            this.addPlayerButton.Size = new System.Drawing.Size(248, 28);
             this.addPlayerButton.TabIndex = 0;
             this.addPlayerButton.Text = "Ajouter un joueur";
             this.addPlayerButton.UseVisualStyleBackColor = true;
@@ -46,9 +49,10 @@ namespace MonopolyINFO807
             // 
             // createGame
             // 
-            this.createGame.Location = new System.Drawing.Point(561, 25);
+            this.createGame.Location = new System.Drawing.Point(748, 42);
+            this.createGame.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.createGame.Name = "createGame";
-            this.createGame.Size = new System.Drawing.Size(186, 23);
+            this.createGame.Size = new System.Drawing.Size(248, 28);
             this.createGame.TabIndex = 1;
             this.createGame.Text = "Créer la partie";
             this.createGame.UseVisualStyleBackColor = true;
@@ -56,20 +60,46 @@ namespace MonopolyINFO807
             // 
             // alertBox
             // 
-            this.alertBox.Location = new System.Drawing.Point(61, 323);
+            this.alertBox.Location = new System.Drawing.Point(81, 398);
+            this.alertBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.alertBox.Multiline = true;
             this.alertBox.Name = "alertBox";
-            this.alertBox.Size = new System.Drawing.Size(685, 92);
+            this.alertBox.Size = new System.Drawing.Size(912, 112);
             this.alertBox.TabIndex = 2;
+            // 
+            // beginGameButton
+            // 
+            this.beginGameButton.Location = new System.Drawing.Point(749, 115);
+            this.beginGameButton.Margin = new System.Windows.Forms.Padding(4);
+            this.beginGameButton.Name = "beginGameButton";
+            this.beginGameButton.Size = new System.Drawing.Size(248, 28);
+            this.beginGameButton.TabIndex = 3;
+            this.beginGameButton.Text = "Commencer la partie";
+            this.beginGameButton.UseVisualStyleBackColor = true;
+            this.beginGameButton.Click += new System.EventHandler(this.beginGameButton_Click);
+            // 
+            // moveButton
+            // 
+            this.moveButton.Location = new System.Drawing.Point(748, 151);
+            this.moveButton.Margin = new System.Windows.Forms.Padding(4);
+            this.moveButton.Name = "moveButton";
+            this.moveButton.Size = new System.Drawing.Size(248, 28);
+            this.moveButton.TabIndex = 4;
+            this.moveButton.Text = "Paul avance de 1";
+            this.moveButton.UseVisualStyleBackColor = true;
+            this.moveButton.Click += new System.EventHandler(this.moveButton_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.moveButton);
+            this.Controls.Add(this.beginGameButton);
             this.Controls.Add(this.alertBox);
             this.Controls.Add(this.createGame);
             this.Controls.Add(this.addPlayerButton);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -82,6 +112,8 @@ namespace MonopolyINFO807
         private System.Windows.Forms.Button addPlayerButton;
         private System.Windows.Forms.Button createGame;
         private System.Windows.Forms.TextBox alertBox;
+        private System.Windows.Forms.Button beginGameButton;
+        private System.Windows.Forms.Button moveButton;
     }
 }
 
